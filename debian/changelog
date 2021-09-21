@@ -1,3 +1,10 @@
+class-jam (1.4.3) focal; urgency=medium
+
+  * Splash migrated to a dirty qt one
+  * Launch script force node version
+
+ -- Juanma1980 <juanma1980@gmail.com>  Tue, 21 Sep 2021 17:43:50 +0200
+
 class-jam (1.4.2lliurexfocal) focal; urgency=medium
 
   * Focal release
