@@ -1,8 +1,0 @@
-nwjs/lib/libEGL.so
-nwjs/lib/libnw.so
-nwjs/lib/libffmpeg.so
-nwjs/lib/libGLESv2.so
-nwjs/lib/libnode.so
-nwjs/swiftshader/libEGL.so
-nwjs/swiftshader/libGLESv2.so
-
