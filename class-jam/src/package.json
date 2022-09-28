@@ -22,16 +22,16 @@
   },
   "chromium-args": "--enable-speech-dispatcher",
   "dependencies": {
-    "archiver": "^5.0.0",
+    "archiver": "^5.3.1",
+    "bl": ">=4.0.3",
     "css": "^3.0.0",
     "decompress": "^4.2.1",
-    "file-type": "^14.7.1",
+    "file-type": "^18.0.0",
     "fs-extra": "^9.0.1",
     "gm": "^1.23.1",
     "md5-file": "^5.0.0",
     "play-sound": "^1.1.3",
     "read-chunk": "^3.2.0",
-    "sortablejs": "^1.10.2",
-    "bl": ">=4.0.3"
+    "sortablejs": "^1.10.2"
   }
 }
