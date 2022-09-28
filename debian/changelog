@@ -1,3 +1,9 @@
+class-jam (1.4.4) focal; urgency=medium
+
+  * Adding node ARCHIVER library.
+
+ -- Daniel Duran <daduve@gmail.com>  Wed, 28 Sep 2022 13:28:46 +0200
+
 class-jam (1.4.3) focal; urgency=medium
 
   * Splash migrated to a dirty qt one
