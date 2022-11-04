@@ -1,3 +1,9 @@
+class-jam (1.4.6) focal; urgency=medium
+
+   * Adding old library file-type@14.7.1 to change avatar
+
+ -- Daniel Duran <daduve@gmail.com>  Fri, 04 Nov 2022 12:02:21 +0100
+
 class-jam (1.4.5) focal; urgency=medium
 
   * Adding locale valencian 
