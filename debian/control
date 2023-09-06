@@ -10,7 +10,7 @@ Homepage: https://github.com/joamuran/class-jam
 
 Package: class-jam
 Architecture: all
-Depends: ${misc:Depends},python,graphicsmagick,imagemagick,wmctrl,mplayer,alsa-utils,lliurex-tts,lliurex-help,nwjs0.30
+Depends: ${misc:Depends},python3,graphicsmagick,imagemagick,wmctrl,mplayer,alsa-utils,lliurex-tts,lliurex-help,nwjs0.30
 Breaks: classroom-assembly (<<1.2)
 Replaces: classroom-assembly (<<1.2)
 Provides: classroom-assembly
