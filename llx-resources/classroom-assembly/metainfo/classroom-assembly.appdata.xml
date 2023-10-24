@@ -20,34 +20,26 @@
 <p xml:lang="ca">Aquesta es la versió digital d'un Racó d'assemblea" a on al inici del dia el alumnat es reuneix per a prendre decissions i treballar diferents rutines</p>
 </description>
 <categories>
-<category>Infantil</category>
-<category>LliureX</category>
-<category>Especial</category>
-
+<category>Education</category>
+<category>LliureX-Infantil</category>
 </categories>
-<icon type="stock">classroom-assembly</icon>
-<provides><binary>classroom-assembly</binary></provides>
+<icon type="stock">class-jam</icon>
+<provides><binary>class-jam</binary></provides>
 <keywords>
 <keyword>classroom</keyword>
 <keyword>assembly</keyword>
 <keyword>Classroom</keyword>
 <keyword>Assembly</keyword>
-</keywords>
-<keywords xml:lang="es">
 <keyword>Asamblea</keyword>
 <keyword>aula</keyword>
 <keyword>educación</keyword>
 <keyword>especial</keyword>
 <keyword>infantil</keyword>
-</keywords>
-<keywords xml:lang="ca_ES.UTF-8@valencia">
 <keyword>Assemblea</keyword>
 <keyword>aula</keyword>
 <keyword>infantil</keyword>
 <keyword>educació</keyword>
 <keyword>especial</keyword>
-</keywords>
-<keywords xml:lang="ca_ES@valencia">
 <keyword>Assemblea</keyword>
 <keyword>aula</keyword>
 <keyword>infantil</keyword>
