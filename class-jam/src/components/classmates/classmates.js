@@ -316,6 +316,7 @@ classmatesComponentClass.prototype.SelectImageForAlu=function SelectImageForAlu(
                     var fs=require('fs');
                        
                     var filename=newImage.split("/").pop();
+                    filename=filename.replace(" ","__");
                     var oldImage=self.configDir+"/components/classmates/"+filename;
                         
                     console.log(oldImage+ " - "+newImage);

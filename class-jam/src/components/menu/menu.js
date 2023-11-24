@@ -668,6 +668,7 @@ menuComponentClass.prototype.showDialogForEditMenu=function showDialogForEditMen
                     
                     var newNameArray=fullpath.split("/");
                     var newName=newNameArray[newNameArray.length-1];
+                    newName=newName.replace(" ","__");
                     
                     var destPath=appGlobal.configDir+"/components/menu";
                     var newPath=destPath+"/"+newName;
