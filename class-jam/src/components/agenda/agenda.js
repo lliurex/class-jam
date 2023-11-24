@@ -684,6 +684,7 @@ agendaComponentClass.prototype.showDialogForEditActivity=function showDialogForE
                     
                     var newNameArray=fullpath.split("/");
                     var newName=newNameArray[newNameArray.length-1];
+                    newName=newName.replace(" ","__");
                     
                     var destPath=appGlobal.configDir+"/components/agenda";
                     var newPath=destPath+"/"+newName;
