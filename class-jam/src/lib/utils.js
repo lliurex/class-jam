@@ -18,10 +18,11 @@ UtilsClass.prototype.resizeFonts=function resizeFonts(){
     var X=0;
     var Y=0;
     var dbTop=$("#dashBoard").position().top;
+    var dbLeft=$("#dashBoard").position().left;
     $(".component").each(function(index, item) {
         console.log($(item).position().left);
         
-        var dimX=$(item).position().left+item.offsetWidth+30;
+        var dimX=$(item).position().left+item.offsetWidth+30+dbLeft;
         var dimY=$(item).position().top+item.offsetHeight+10+dbTop;
         
         if (dimX>X) X=dimX;
@@ -29,11 +30,15 @@ UtilsClass.prototype.resizeFonts=function resizeFonts(){
     });
     // X and Y are max values for items.
     
-    var WinZoomY=(window.innerHeight/Y)*100;
-    var WinZoomX=(window.innerWidth/X)*100;
+    var WinZoomY=document.documentElement.clientHeight/Y*100;
+    //var WinZoomX=(window.Width/X)*100;
+	//Attempt to get more coherent sizes
+    var WinZoomX=document.documentElement.clientWidth/X*100;
     var WinZoom=WinZoomX;
     if (WinZoomX>WinZoomY) WinZoom=WinZoomY;
     
+	//DIRTY fix for bad zoom on startup
+	if (WinZoom>150) WinZoom=150;
     $("#dashBoard").css("zoom", WinZoom+"%");
     
     
