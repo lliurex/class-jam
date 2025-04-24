@@ -1609,7 +1609,7 @@ UI.prototype.LaunchAssembly = function LaunchAssembly(id) {
         self.bindEvents();
         // Aplying font resize
         self.setCustomCSS();
-        Utils.resizeFonts();
+        //Utils.resizeFonts();
         $(".loadMainContainer").remove(); // Destroys load dialog
         //$("#btShowPlayerMode").click(); // Set player mode
         // Setting player mode
