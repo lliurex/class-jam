@@ -13,4 +13,7 @@ if [ -x /usr/share/nwjs0.30/nw ]; then
 elif [ -x /usr/share/nwjs0.21/nw ]; then 
 echo "Launching app with nwjs0.21"
 	/usr/share/nwjs0.21/nw /usr/share/class-jam/src
+elif [ -x /usr/bin/nwjs ]; then
+echo "Launching with system nwjs"
+	/usr/bin/nwjs /usr/share/class-jam/src
 fi
