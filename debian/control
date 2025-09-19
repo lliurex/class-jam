@@ -1,5 +1,5 @@
 Source: class-jam
-Section: misc
+Section: education
 Priority: optional
 Maintainer: LliureX Team <lliurex@lliurex.net>
 Build-Depends: llxsrchelper,debhelper (>= 8.0.0)
